@@ -1,0 +1,7 @@
+// src/custom.scss
+
+// 1. Bootstrap 변수 오버라이드 (먼저 선언해야 함)
+$primary: #B29F7E; // 여기에 원하는 primary 색상 입력
+
+// 2. Bootstrap 전체 가져오기
+@import 'bootstrap/scss/bootstrap';

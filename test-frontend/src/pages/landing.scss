@@ -1,0 +1,30 @@
+.hero-section {
+    position: relative;
+    background-image: url('../../public/images/hero.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.hero-section .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #172234;
+    opacity: .6;
+    z-index: 0;
+}
+
+.hero-section .z-1 {
+    z-index: 1;
+}
+
+.deal-card {
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    aspect-ratio: 16 / 9;
+}
